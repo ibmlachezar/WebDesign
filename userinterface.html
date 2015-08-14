@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+.buttonstyle {
+appearance: button;
+-webkit-appearance: button;
+-moz-appearance: button;}
+
+div.container { margin: 100px auto; width:600px; border: 10px solid black;outline:5px solid red; outline-offset:42px; }
+
+div.box
+{
+box-sizing:border-box;
+-moz-box-sizing:border-box; 
+-webkit-box-sizing:border-box;
+width: 50%;
+border: 10px solid #820000;
+float: left;
+}
+
+#resizehoriz {resize: horizontal; margin-top: 200px;}
+#resizevert {resize: vertical; margin-top: 200px;}
+#resizeboth {resize: both;margin: 200px 0 200px 0;}
+textarea {display: block;}
+</style>
+
+<title>Appearance</title>
+ </head>
+
+<body>
+<h1>Appearance</h1>
+<pre>.buttonstyle { appearance: button; -webkit-appearance: button; -moz-appearance: button;} 
+
+
+div.container { margin: 100px auto; width:600px; border: 10px solid black;outline:5px solid red; outline-offset:42px; } 
+div.box { box-sizing:border-box; -moz-box-sizing: border-box;  -webkit-box-sizing:border-box; width: 50%; border: 10px solid #820000; float: left; } 
+
+
+#resizehoriz {resize: horizontal;} 
+#resizevert {resize: vertical;} 
+#resizeboth {resize: both;} 
+textarea {display: block;}</pre>
+<hr>
+<div class="buttonstyle">This looks like a button</div>
+
+<div class="container"> This container has an outline of 5px that is offset by 42px.
+<div class="box">This content will be in the left side of the container div.</div>
+<div class="box">This content will be in the right side of the container div.</div>
+</div>
+
+<p>
+  <textarea id="resizehoriz"cols="10" rows="3">You can resize this only horizontally.</textarea>
+</p>
+
+<p>
+  <textarea id="resizevert" cols="10" rows="3">You can resize this only vertically.</textarea>
+</p>
+
+<p>
+  <textarea id="resizeboth" cols="10" rows="3">You can resize this both horizontally and vertically.</textarea>
+</p>
+
+</body>
+</html>
