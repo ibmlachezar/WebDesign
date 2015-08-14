@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+@font-face {
+  font-family: 'Reenie Beanie';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Reenie Beanie'), local('ReenieBeanie'), url('http://themes.googleusercontent.com/static/fonts/reeniebeanie/v1/ljpKc6CdXusL1cnGUSamX4kaQb-UsZVONjobs91YQtw.woff') format('woff');
+}
+h1, p { font-family: 'Reenie Beanie'; 
+      font-size: 48px;
+      text-shadow: 4px 4px 4px #820000;}
+</style>
+<title>Font and Text</title>
+</head>
+
+<body>
+<h1>Font and Text</h1>
+<pre>@font-face {<br>  font-family: 'Reenie Beanie';<br>  font-style: normal;<br>  font-weight: normal;<br>  src: local('Reenie Beanie'), local('ReenieBeanie'), url('http://themes.googleusercontent.com/static/fonts/reeniebeanie/v1/ljpKc6CdXusL1cnGUSamX4kaQb-UsZVONjobs91YQtw.woff') format('woff');<br>}<br>h1, p { font-family: 'Reenie Beanie'; <br>      font-size: 48px;<br>      text-shadow: 4px 4px 4px #820000;}</pre>
+<hr>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac massa ut erat bibendum molestie vitae sit amet nunc. Fusce rutrum ornare est, id lacinia elit condimentum id. Suspendisse potenti. Proin mattis mattis lorem eu scelerisque. Vivamus quis placerat nisl. Quisque facilisis ante nec urna vehicula rutrum pharetra ligula iaculis. Etiam eget diam urna, vel congue ante. Ut eu sem mi, id laoreet quam. Phasellus sapien mauris, convallis quis fermentum at, eleifend vitae metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla nec tortor quis dolor consectetur posuere quis eu velit. Proin quis purus at odio condimentum vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus placerat rhoncus gravida. Nulla urna ante, commodo vel aliquet sit amet, dictum a lacus.</p>
+
+
+</body>
+</html>
