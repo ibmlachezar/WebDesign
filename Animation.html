@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+.box1{ width:200px; height:200px; background: #820000; color: #ffc; position:absolute; top:300px; left:0px;}
+.box2{ width:200px; height:200px; background: pink; position:absolute; top:300px; right:0px; -webkit-animation:animatedbox 15s infinite; animation:animatedbox 15s infinite;}
+@-webkit-keyframes animatedbox { 0%{right:0%;} 50%{right:100%;} 100%{right:0%;} }
+@keyframes animatedbox { 0%{right:0%;} 50%{right:100%;} 100%{right:0%;} }
+
+</style>
+<title>Animation</title>
+</head>
+
+<body>
+<h1>Animations</h1>
+<pre>
+.box1{ width:200px; height:200px; background: #820000; color: #ffc; position:absolute; top:300px; left:0px;}
+.box2{ width:200px; height:200px; background: pink; position:absolute; top:300px; right:0px; -webkit-animation:animatedbox 15s infinite; animation:animatedbox 15s infinite;}
+@-webkit-keyframes animatedbox { 0%{right:0%;} 50%{right:100%;} 100%{right:0%;} }
+@keyframes animatedbox { 0%{right:0%;} 50%{right:100%;} 100%{right:0%;} }
+</pre>
+<hr />
+<div class="box1">Box 1</div>
+<div class="box2">Box 2</div>
+
+</body>
+</html>
