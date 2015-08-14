@@ -1,0 +1,66 @@
+HTML5 Forms
+
+<form action="http://www.stanford.edu/group/csp-classes/cgi-bin/html5.php" method="post">
+<fieldset>
+<legend>Email and URL</legend>
+<p>
+<label for="SenderName">Your Name:</label>
+<input type="text" name="SenderName" id="SenderName" required>
+</p>
+<p>
+<label for="SenderEmail">Your Email: </label>
+<input type="email" name="SenderEmail" id="SenderEmail">
+</p>
+<p>
+<label for="SenderURL">Your Web Address (URL): </label>
+<input type="url" name="SenderURL" id="SenderURL">
+</p>
+</fieldset>
+<hr>
+<fieldset>
+<legend>Number Stuff</legend>
+<p>
+<label for="num"> Number: </label>
+<input type="number" name="num" id="num" min="0" max="15" step="3">
+</p>
+<p>
+<label for="numrange"> Range: </label>
+<input type="range" name="numrange" id="numrange" min="0" max="15" step="3">
+</p>
+</fieldset>
+<hr>
+<fieldset>
+<legend>Date Stuff</legend>
+<p>
+<label for="numdate"> Date: </label>
+<input type="date" name="numdate" id="numdate" >
+</p>
+<p>
+<label for="nummonth"> Month: </label>
+<input type="month" name="nummonth" id="nummonth">
+</p>
+<p>
+<label for="numweek"> Week: </label>
+<input type="week" name="numweek" id="numweek">
+</p>
+<p>
+<label for="numtime"> Time: </label>
+<input type="time" name="numtime" id="numtime">
+</p>
+<p>
+<label for="numdatetime"> Date/Time: </label>
+<input type="datetime" name="numdatetime" id="numdatetime">
+</p>
+ </fieldset>
+<hr>
+<p>
+<label for="searchme"> Search: </label>
+<input type="search" name="serachme" id="searchme" placeholder="Search me!">
+</p>
+<hr>
+<p>
+<label for="colorme"> Color: </label>
+<input type="color" name="colorme" id="colorme">
+</p>
+<input type='submit' value="submit"> 
+</form>
