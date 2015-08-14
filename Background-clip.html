@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+div#box1 {
+color: #eee;
+border: 5px green;
+border-style: dotted double;
+background: blue;
+-moz-background-clip: padding;      
+-webkit-background-clip: padding-box; 
+background-clip: padding-box;  
+}
+
+div#box2 {
+color: #eee;
+margin-top: 20px;
+border: 5px green;
+border-style: dotted double;
+background: blue;
+}
+
+ </style>
+<title>Background-clip</title>
+</head>
+
+<body>
+<h1>Background-clip</h1>
+<pre>div#box1 {
+   color: #eee;
+   border: 5px green;
+   border-style: dotted double;
+   background: blue;
+   background-clip: padding-box; 
+   }
+   
+   div#box2 {
+   color: #eee;
+   margin-top: 20px;
+   border: 5px green;
+   border-style: dotted double;
+   background: blue;
+   </pre>
+<hr />
+<div id="box1">This is box 1. Since I have background-clip: padding-box, the blue background won't go behind my border.</div>
+
+<div id="box2">This is box 2. I don't have background-clip, so the blue background does go behind my border.</div>
+
+</body>
+</html>
