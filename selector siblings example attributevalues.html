@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+div[class^="test"] { background: green;}
+div[class$="test"] { font-size: 36px;}
+div[class*="test"] { font-style: italic;}</style>
+<title>Attributes</title>
+</head>
+
+<body>
+<h1>Attributes</h1>
+<pre>attribute^=value
+attribute$=value
+attribute*=value
+
+
+div[class^=&quot;test&quot;] { background: green;}
+div[class$=&quot;test&quot;] { font-size: 36px;}
+div[class*=&quot;test&quot;] { font-style: italic;}
+</pre>
+<hr />
+
+
+<div class="testy">This div has a class of &quot;testy&quot;. It should have a green background and be italic but not 36 px.</div>
+<div class="this-is-a-test">This div has a class of &quot;this-is-a-test&quot;. It should be size 36 and italic, but not green.</div>
+<div class="this-test-fails">This div has a class of &quot;this-test-fails&quot;. It should be only italic.</div>
+</body>
+</html>
