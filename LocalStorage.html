@@ -1,0 +1,18 @@
+LocalStorage
+
+With LocalStorage, you can store information
+
+<div id="example"></div>
+<script>
+   var item1 = prompt("Enter some text for the first item",item1);
+if(typeof(Storage)!=="undefined")
+   {
+   localStorage.item1=item1;
+   document.getElementById("example").innerHTML="First Item: " + localStorage.item1;
+   }
+   else
+   {
+   document.getElementById("example").innerHTML="Hmmm, your browser does not support local storage...";
+   }
+   </script>
+ 
